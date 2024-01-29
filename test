@@ -1,0 +1,28 @@
+.btn-color1, .btn-color2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color1:hover, .btn-color2:hover {
+    cursor: pointer;
+}
+
+.btn-color1, .btn-color2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color2 {
+    background: none;
+}
+
+.btn-color2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
+}
